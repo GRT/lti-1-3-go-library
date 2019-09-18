@@ -17,7 +17,7 @@ import (
 
 const (
 	cookieStatePrefix = "lti1_3_"
-	// TODO: this should be from elsewhere?
+	// TODO: this should be from elsewhere
 	toolIssuer = "grt-go-test-platform"
 )
 

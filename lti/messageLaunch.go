@@ -60,7 +60,7 @@ func NewMessageLaunchFromCache(launchID string, r *http.Request, registrationDS 
 
 	// save the launchID in the request context
 	newReq := requestWithLaunchIDContext(r, launchID)
-	*r = *newReq // TODO: I don't think this changes the callers request.  test it.
+	*r = *newReq 
 
 	if err := m.validateClientID(*m.cachedClaims); err != nil {
 		return nil, errors.Wrap(err, "Cached message launch failed validation")
@@ -138,7 +138,7 @@ func (M *MessageLaunch) validateNonce(req *http.Request, nonce string) error {
 	}
 	log.Printf("nonce check failed")
 	// platform is never sending the right nonce.
-	//  It's commented out in the php reference: https://github.com/IMSGlobal/lti-1-3-php-library/blob/master/src/lti/lti_message_launch.php#L150
+	//  It's commented out in the php reference: https://github.com/IMSGlobal/lti-1-3-php-library/blob/1535dc1689121e37a18d843156fa449383255107/src/lti/lti_message_launch.php#L258
 	//  for now, skip the error. Maybe this will be fixed in the future.
 	// return fmt.Errorf("Invalid Nonce")
 	return nil
