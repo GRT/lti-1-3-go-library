@@ -1,0 +1,24 @@
+[
+  {
+    "issuer": "http://imsglobal.org",
+    "clientId": "grt-go-test-platform",
+    "authLoginUrl": "https://lti-ri.imsglobal.org/platforms/163/authorizations/new",
+    "authTokenUrl": "https://lti-ri.imsglobal.org/platforms/163/access_tokens",
+    "keySetUrl": "https://lti-ri.imsglobal.org/platforms/163/platform_keys/163.json",
+    "toolPrivateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0PL/U28fBwe8gHhLzkth0nPl+9VMJ7g+5jflrrjci1zPgSPA\nNGllFH+9yew/z+CulxRQ116uCdREvfS61IsfHhSlHLr0yjL97hez6zv+sxlSDK/h\nWoh2dMC6owLqO1xQtqqINj+rXqpqSABetrs5ft0AvYCqzIKk06WCzGMk+F5RMH1Y\nzc6zS/Lsbvp2aIZu5OKe0WWo/5I3NgZUj3OFYfPB2xmA1+kXPQIdOTEtkzb1oc0/\nxgkv0OQ3edhQsgmQPrbZmfUsKGY0+MnjMrBy6DbFginB9staSqmDyvF1j6rYc81M\n7EfGFtPcGlP2PuceFXQohME4wLQIymyAOliEzQIDAQABAoIBACxWA1tezsSdHaBc\n5ijl0eHn+brP7ZLYA3CyF6hVTWa80MLkJRp56prI6Cp6WKfxUtp30xd/3Yn0Yomz\n7hi/VGD7nHVWLi7hVwQ4P1MArfCuxLwwba7aGdh4NKH2MmFaGz5HPRPVurUhj9+r\nRG2dmHuUxV1wec1fQz4tdm2L9AJHDrLRTpF3iAWVyIhz0XOKh+LIuMefeXSWs0FF\n6uDRrkCckC4UfoxfRXNAF/3UWOOb+RA/zK31RXB+YgLUi0imVVwQNctC08r3+lOy\nyxHi2aykuq/lUxPGxMR60fmmd65RNLgmzwHljEZJ7M73wWDYZ6Az57Bjp294+xXT\nuOkV0YECgYEA9uxOkvk2wCLputwVMlb7P90iKFpntIeby69sbVf0pCy8ud28tfcE\nGY1RTmaJFNW573oHDW9gVTmGZu3CjRO1aItW7OYJXtoFvHrheDZ6rs+At0c4e/qj\nzTbes4ZAvsAVhUtTkyGNI3m5NX6GnGnSMvjVb+3TljCFt6CxrsP+lb0CgYEA2KFV\ncZM9F0JCoOi2nlKjrbxfdCOOaVRuAoT/E/mFAjqTUirbnwL0frBveAGFQMNKM7Io\n2n5jRxmiUyhL2T7wTYGRJ11ZWtc8ZsBO3rsBdG4o575GO55hWKlSANLNVaHNKN2F\nfINA+7fB0vVoiPxoc4N/+r9LKFdmH7NhOZIP9FECgYBfCE2pZT78LbO1FhUWXcGv\nL6WA0GKPaY29k9NwNeTS9uDfzAZgJiSuzOPY/7+MhEFeeKGUOyRhSJWAscspzscH\n6HDZFiPPHKwOgWCbiqQm+Xe5kjCcDrfSOGb3wxjSEU13Eqmku8n9OFDe1MZsFpIu\nyfQjcu33JM+h/7fC4m3uJQKBgGZ8ZSz3SJahXV482nCqjg8aqFoMnEpOjEEa5IZx\nrLByP9JGvmJLBpqNJB81MPKDsa4lYliEJLm1ces/jCq6MPuqCZ8C9cwZOdUus+GB\nvV105FtG1HlOI6XLbSVAla4mfyYPLyDKA8tSkxsXyR3NtCi6FKjvKUJrnr/uoFeZ\nN30RAoGBANTz+kAaq0wdV5osIG00tnBRSEAErdTXEITvHhtfYjFzG2cc89LcbM/6\n0icUS0EZPVLNEJC0YZnvw1zwqKPSnhBDNHK8tS3R9OraI/pBS2Bsp0bOmDTC7k0I\ny2dW9ahYzAFM3G1e4nw2Capkog/TbAACpezYVijjpgH4kb7pY/Eu\n-----END RSA PRIVATE KEY-----",
+    "deploymentIds": [
+      "dep1"
+    ]
+  },
+  {
+    "issuer": "http://localhost:8080",
+    "clientId": "JHWFP9DVWv9ZDgh",
+    "authLoginUrl": "http://localhost:8080/mod/lti/auth.php",
+    "authTokenUrl": "http://localhost:8080/mod/lti/token.php",
+    "keySetUrl": "http://localhost:8080/mod/lti/certs.php",
+    "toolPrivateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAp/8/DF4G5/mKUjW1lKiF6h1z53d1OibuHweyN3l7+XCYTG4W\nK707yKIqGYrKYDZepJKn4RqSA7ghm86daF4QuEImdNoOwmaIi79nTyh+W5MpinPb\nXmZd08GK5Rf9xgiC4jPIPThF4q4k3mli3ryAhBO2zToV9oejb9RvP9psHIHeh25w\nNVhylpqiS95PSjFJ6YVCM0fxEL4mhlESmWMsHwn4jnIEhVHncK4tP75jVO4ITglr\nkaREcYKSmj2yaoez4xqEm/LNo69Lu1kRNOJao6Up38OnWmFzGcHijaLJeM55LMvw\n2oZlmnj+1sFg318Cxq4Y7LJjfj5ZuPtQfArs9wIDAQABAoIBAH/GXXfUlEAfxhrd\nCuy0eJYmLJ+idiDyty4WtnAHEEoaX1vSZz6BQVVKMecXbvFaqQVXHiTSBriZdcaB\nkatt0B21Anbh21P0lGpl+/dy/xg7h97sW68jAL4seK3iX3wdwR6279fQUycj+JrJ\nYQ+0I7NRIzpYsZe+dop58tuID65lxRmiA6j5lLyVZe2PRyGPz7leeou3C9eZozmk\n3SI3mFcOaxyEDJyO6pQYtVZqsPbhrXYdoPQvrNd/sAyCNvaLAK8OjSGtd0DvQ03F\nxlXbDqCVKDRiWi6hhpMZ/clWQkCXoRzpgIBOiq0mYwBytNM0x7GVfCrBUHSuRPxN\n3LeVRhECgYEA0Acd2cRU/U138z4T1rBrcQZSab0BgmY0PMsTMXi1As8hF6fJGU+j\ndeMm448rO2Qp3bOH1bVWXmNRLvbVhhdpb+DZoAYFtGzhcqRogE0f+g2DQq1ljdUu\ndN3r/3bBD5yWkipvgU+t/8OJj5/8P0bfvGPKcis3u6J6i9naY6ggELMCgYEAzrzs\nCC86QkFekzkcR/hucHMfrdqxV31y67zyRBGbq2jLQRcQaPZUEV/SxupvT6nBUcU1\nxnTlgLL9BDa7TeDTbjRSRYSVprlvpUYvBv1s36tDJfq2hnoOU9L1jMpg3DRHGHwj\ncQB9xB/hBcV0cOSnMjigLaRE7ccLEg1BEfErzK0CgYBPPaa9QPAu3MeIPGlKKkGC\n+CmEZZ6hkVTso15YReaNf2DXpe4QWimlyjUSEYMiSHE6Jhzj5wNTSPmvrg5/2YMs\nPrYnIqQhqifmh4HW/YnksikByRMaB85+bdproUzBKaChZNC8rSFWf6FyuDpZ0CGB\nnXGMM7IzIx0TEJUDyRMNyQKBgQCHEGYj8rbdElf3Vxhi7Ks6S/wmWPoDbrHl0Ut1\nrQtGsPAZVjgiWswRjcjmq8KNCRqDkZPQVA6cRlOGrTsxZfC7zvLw9+3NPtjx4ShY\nKLk4Z2s3JNSahqNVoD1L/evJ8V2BYZjF+swvlaQtYRLxrnCNHvGG4AsoTSGuaXpZ\nfnZfAQKBgCf08nKC3kKinWoGI2ImydQkmcEVaMa/Uv8teURZT68b9NuWqMcBOiZ9\n2DX9HpeTEooVsPnZ/a6GbMYbOJm5r7i/R0a8aPsOyE5ioLzfUF5w5hdxOC7arXel\nKFKJ+AR4d4FvUTv3+jcGxtgyDWLd9NGzYRkSpLmIiiyBQBUoQdvH\n-----END RSA PRIVATE KEY-----",
+    "deploymentIds": [
+      "1"
+    ]
+  }
+]
